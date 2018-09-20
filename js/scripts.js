@@ -1,23 +1,25 @@
+//
+
 $(document).ready(function() {
  $("#form-group form").submit(function(event) {
-   var person1Input = $("input:radio[name=person1]:checked").val();
-   var person2Input = $("input:radio[name=person2]:checked").val();
-   var weatherInput = $("input:radio[name=weather]:checked").val();
-   var acvtivityInput = $("input:radio[name=activity]:checked").val();
-   var agricultureInput = $("input:radio[name=person2]:checked").val();
-   var result = (add(destination, person2, weather, activity, agriculture))
-   alert(val)
+   event.preventDefault();
+   var operator = $("input:radio[name=destination]:checked").val();
+   var operator = $("input:radio[name=person2]:checked").val();
+   var operator = $("input:radio[name=weather]:checked").val();
+   var operator = $("input:radio[name=activity]:checked").val();
+   var operator = $("input:radio[name=agriculture]:checked").val(); {
+   $("#output").text(result);
+    };
   });
 });
-$(document).ready(function(){
-  $()
-  if (value > = 5) {
-    $('#low').show;
-  } else (value < = 10) {
-    $('#medium').show;
-    else if (value < 10) {
-      $('high').show;
-  }
-  $("output").alert(result):
+  $(document).ready(function() {
+    $("#form-group form").submit(function() {
+    $(".destination").append("blah blah");
+    $(".person2").append("blah blah");
+    $(".weather").append("blah blah");
+    $(".activity").append("blah blah");
+    $(".agriculture").append("blah blah");
+
+    $("#story").show();
   });
-};
+});

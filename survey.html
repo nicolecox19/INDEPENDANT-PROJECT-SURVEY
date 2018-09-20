@@ -11,7 +11,7 @@
     <div class="container">
       <h1>Answer these questions to find out your next vacation!!</h1>
       <div id="blanks">
-        <form>
+        <form id="quiz">
           <div class="form-group" id="form-group">
           <label>What are things you keep in mind before choosing a travel destination</label>
           <p></p>
@@ -27,14 +27,13 @@
         <input type="radio" name="person2" value="1"> Just me!<br>
         <input type="radio" name="person2" value="2"> Some good friends are tagging along.<br>
       </div>
-      <div class="form-group">
-        <div class="form-group" id="form-group">
-          <label>Do you prefer warmer or colder weather</label>
-          <p></p>
-          <input type="radio" name="weather" value="3"> Warm weather<br>
-          <input type="radio" name="weather" value="1"> Cold<br>
-          <input type="radio" name="weather" value="2"> Indifferent<br>
-        </div>
+      <div class="form-group" id="form-group">
+        <label>Do you prefer warmer or colder weather</label>
+        <p></p>
+        <input type="radio" name="weather" value="3"> Warm weather<br>
+        <input type="radio" name="weather" value="1"> Cold<br>
+        <input type="radio" name="weather" value="2"> Indifferent<br>
+      </div>
       <div class="form-group" id="form-group">
         <label>Do you want to relax or adventure??</label>
         <p></p>
@@ -49,21 +48,14 @@
           <input type="radio" name="agriculture" value="1"> Sea<br>
           <input type="radio" name="agriculture" value="2"> town!<br>
         </div>
+        <button type="submit" class="btn btn-info">Find your next vacation!</button>
+      </form>
+      <div id"output">
 
 
-              <button type="submit" class="btn btn-info"> Find your next vacation!</button>
-            </form>
           </div>
-          <div id="story"
-          <Div class="low">
-            <h2>If youre score was between 0-1 I would recommend going</h1>
-        </div>
-        <div id="medium">
-          <h2>If your score was from 5-10 you'll really enjoy </h2>
-        </div>
-        <div id="high">
-          <h2>if your score was from 10-15 you're going to want to come here</h2>
         </div>
       </div>
+    </div>
   </body>
 </html>
