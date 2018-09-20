@@ -4,80 +4,66 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scipts.js"></script>
+    <script src="js/scripts.js"></script>
     <title>A fantastical adventure</title>
   </head>
   <body>
     <div class="container">
       <h1>Answer these questions to find out your next vacation!!</h1>
-      <div class="container">
-      <div class="form-group" id="form-group">
+      <div id="blanks">
         <form>
+          <div class="form-group" id="form-group">
+          <label>What are things you keep in mind before choosing a travel destination</label>
           <p></p>
-          <label></label>
-          <p></p>
-          <input type="radio" name="guncontrol" value="3"> Yes<br>
-          <input type="radio" name="guncontrol" value="1"> No<br>
-          <input type="radio" name="guncontrol" value="2"> Indifferent<br>
-<p></p>
-
-          <div class="container">
+          <input type="radio" name="destination" value="3"> Budget<br>
+          <input type="radio" name="destination" value="1"> Is this a work related vacation?<br>
+          <input type="radio" name="destination" value="2"> Internet connectivity<br>
+        </div>
       <div class="form-group" id="form-group">
-        <form>
-          <p></p>
-          <label>Whos going?</label>
-          <p></p>
-          <input type="radio" name="person2" value="3"> Whole family<br>
-          <input type="radio" name="person2" value="1"> Just me!<br>
-          <input type="radio" name="person2" value="2"> Some good friends are tagging along.<br>
-          <p></p>
-
-          <div class="form-group">
-          <div class="container">
-      <div class="form-group" id="form-group">
-        <form>
-          <p></p>
+        <p></p>
+        <label>Whos going?</label>
+        <p></p>
+        <input type="radio" name="person2" value="3"> Whole family<br>
+        <input type="radio" name="person2" value="1"> Just me!<br>
+        <input type="radio" name="person2" value="2"> Some good friends are tagging along.<br>
+      </div>
+      <div class="form-group">
+        <div class="form-group" id="form-group">
           <label>Do you prefer warmer or colder weather</label>
           <p></p>
           <input type="radio" name="weather" value="3"> Warm weather<br>
           <input type="radio" name="weather" value="1"> Cold<br>
           <input type="radio" name="weather" value="2"> Indifferent<br>
+        </div>
+      <div class="form-group" id="form-group">
+        <label>Do you want to relax or adventure??</label>
+        <p></p>
+        <input type="radio" name="activity" value="3"> Adventure!<br>
+        <input type="radio" name="activity" value="1"> Relaxation!<br>
+        <input type="radio" name="activity" value="2"> Indifferent<br>
+      </div>
+        <div class="form-group" id="form-group">
+          <label>Does being close to the sea, town, or mountaints matter to you?</label>
           <p></p>
-          <div class="container">
-            <div class="form-group" id="form-group">
-              <form>
-                <p></p>
-                <label>Do you want to relax or adventure??</label>
-                <p></p>
-                <input type="radio" name="activity" value="3"> Adventure!<br>
-                <input type="radio" name="activity" value="1"> Relaxation!<br>
-                <input type="radio" name="activity" value="2"> Indifferent<br>
-                <p></p>
-              <div class="form-group">
-                <label for="agriculture">does being close to the sea, town, or mountain matter to you?</label>
-                <select class="form-control" id="agriculture">
-                  <option>Must be close to the sea.</option>
-                  <option>Must be close to a town.</option>
-                  <option>Must be close to a mountain.</option>
-                </select>
-                <div class="container">
-              <div class="form-group" id="form-group">
-                <form>
-                  <p></p>
-                  <label>Does being close to the sea, town, or mountaints matter to you?</label>
-                  <p></p>
-                  <input type="radio" name="agriculture" value="3"> Mountains<br>
-                  <input type="radio" name="agriculture" value="1"> Sea<br>
-                  <input type="radio" name="agriculture" value="2"> town!<br>
-                  <p></p>
-                  <p></p>
-              <button type="submit" class="btn btn-info"> Find your next vacation!>
+          <input type="radio" name="agriculture" value="3"> Mountains<br>
+          <input type="radio" name="agriculture" value="1"> Sea<br>
+          <input type="radio" name="agriculture" value="2"> town!<br>
+        </div>
+
+
+              <button type="submit" class="btn btn-info"> Find your next vacation!</button>
             </form>
-          
           </div>
-        </form>
+          <div id="story"
+          <Div class="low">
+            <h2>If youre score was between 0-1 I would recommend going</h1>
+        </div>
+        <div id="medium">
+          <h2>If your score was from 5-10 you'll really enjoy </h2>
+        </div>
+        <div id="high">
+          <h2>if your score was from 10-15 you're going to want to come here</h2>
+        </div>
       </div>
-      </div>
-    </div>
   </body>
 </html>

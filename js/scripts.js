@@ -5,10 +5,19 @@ $(document).ready(function() {
    var weatherInput = $("input:radio[name=weather]:checked").val();
    var acvtivityInput = $("input:radio[name=activity]:checked").val();
    var agricultureInput = $("input:radio[name=person2]:checked").val();
-
-   #("span#person1").text(person1Input);
-
-  event.preventDefault();
+   var result = (add(destination, person2, weather, activity, agriculture))
+   alert(val)
   });
 });
- 
+$(document).ready(function(){
+  $()
+  if (value > = 5) {
+    $('#low').show;
+  } else (value < = 10) {
+    $('#medium').show;
+    else if (value < 10) {
+      $('high').show;
+  }
+  $("output").alert(result):
+  });
+};
