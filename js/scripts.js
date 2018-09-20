@@ -1,15 +1,14 @@
 $(document).ready(function() {
-  $("#blanks form").submit(function(event) {
-    var blanks = ["person1", "person2", "weather", "activity", "agriculture" ];
+ $("#form-group form").submit(function(event) {
+   var person1Input = $("input:radio[name=person1]:checked").val();
+   var person2Input = $("input:radio[name=person2]:checked").val();
+   var weatherInput = $("input:radio[name=weather]:checked").val();
+   var acvtivityInput = $("input:radio[name=activity]:checked").val();
+   var agricultureInput = $("input:radio[name=person2]:checked").val();
 
-    blanks.forEach(function(blank) {
-      var userInput = $("input." + blank).val();
-      console.log(userInput);
-      $("." + blank).text(userInput).val();
-    });
+   #("span#person1").text(person1Input);
 
-    $("#story").show();
-
-    event.preventDefault();
+  event.preventDefault();
   });
 });
+ 
